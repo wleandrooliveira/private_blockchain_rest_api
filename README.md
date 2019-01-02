@@ -79,6 +79,7 @@ http://localhost:5001/block/0
 **Success Response**
 * Code: 200 OK
 * Content: JSON object of the block
+
 {
     "height": 0,
     "timeStamp": "",
@@ -100,6 +101,7 @@ http://localhost:5001/
 
 **Error Response**
 * Code: 404 Not Found
+```
 ```
 {
     "status": 404,
