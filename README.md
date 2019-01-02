@@ -123,10 +123,9 @@ Add a new block with string data to the Blockchain
 Example:
 ```
 http://localhost:5001/block
-data:
 
 {
-    body: "Hello, Blockchain!"
+    "body":"block body contents"
 }
 ```
 
