@@ -101,8 +101,7 @@ http://localhost:5001/
 
 **Error Response**
 * Code: 404 Not Found
-```
-```
+
 {
     "status": 404,
     "message": "Accepted endpoints: POST /block or GET /block/{BLOCK_HEIGHT}"
