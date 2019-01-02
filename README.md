@@ -1,5 +1,5 @@
 # Private BlockChain Rest Api"
-================= 
+
 Web service for a simple private Blockchain implemented using `Node.js` and `Express` framework  -- project @ Udacity's Blockchain Developer Nanodegree
 
 The API project file server.js include two endpoints:
