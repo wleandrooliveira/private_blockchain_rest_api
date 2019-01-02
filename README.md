@@ -137,3 +137,7 @@ http://localhost:5001/block
 
 **Error Response**
 * Code: 400 Bad Request
+
+# License
+
+Copyright (c) 2019 Wanderson Leandro de Oliveira
