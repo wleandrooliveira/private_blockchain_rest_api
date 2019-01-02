@@ -79,8 +79,6 @@ http://localhost:5001/block/0
 **Success Response**
 * Code: 200 OK
 * Content: JSON object of the block
-
-```
 {
     "height": 0,
     "timeStamp": "",
