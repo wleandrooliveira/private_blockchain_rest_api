@@ -2,10 +2,9 @@
 
 Web service for a simple private Blockchain implemented using `Node.js` and `Express` framework  -- project @ Udacity's Blockchain Developer Nanodegree
 
+![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/shutterstock_749922058.jpg)
+
 The API project file server.js include two endpoints:
-
-![getty_847491206_20001000200092802_361305](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/shutterstock_749922058.jpg)
-
 
 Get block
 
