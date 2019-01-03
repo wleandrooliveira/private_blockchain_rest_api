@@ -64,7 +64,9 @@ Added block #0
 Genesis block added!
 ```
 
-# RESTful API Endpoint
+# RESTful API Endpoint 
+
+## Test Endpoints
 
 ## Get Block
 
@@ -76,43 +78,24 @@ In this this project i used postman to make a test request.
 [Postman](https://www.getpostman.com) is a powerful tool used to test web services. It was developed for sending HTTP requests in a simple and quick way.
 
 Example:
+```
+http://localhost:8000/block/0
+```
 
 ![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/getblock_genesis.PNG)
 
-http://localhost:8000/block/0
 
-```
-**Success Response**
-* Code: 200 OK
-* Content: JSON object of the block
-
-{
-    "height": 0,
-    "timeStamp": "",
-    "body": "First block in the chain - Genesis block",
-    "previousBlockHash": "",
-    "hash": "128dbb2a737629eba57c1dffd15facdf7ddd69f8d2145d5c5f241c604b95a3e1",
-    "time": "1546445532"
-}
-```
 **Method**: GET
 
-**URL**: `/`
-
-In this Request has used postman
+**URL**: `/block/:blockHeigh_nonexistentt`
 
 Example:
 ```
-http://localhost:8000/
-
-**Error Response**
-* Code: 404 Not Found
-
-{
-    "status": 404,
-    "message": "Accepted endpoints: POST /block or GET /block/{BLOCK_HEIGHT}"
-}
+http://localhost:8000/block/11
 ```
+
+![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/404_by_id.PNG)
+
 
 ## Add Block
 
@@ -128,18 +111,10 @@ Add a new block with string data to the Blockchain
 
 Example:
 ```
-http://localhost:5001/block
-
-{
-    "body":"block body contents"
-}
+http://localhost:8000/block
 ```
+![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/insertBlock.PNG)
 
-**Success Response**
-* Code: 200 OK
-
-**Error Response**
-* Code: 400 Bad Request
 
 # License
 
