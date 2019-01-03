@@ -76,10 +76,12 @@ In this this project i used postman to make a test request.
 [Postman](https://www.getpostman.com) is a powerful tool used to test web services. It was developed for sending HTTP requests in a simple and quick way.
 
 Example:
-```
+
 ![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/getblock_genesis.PNG)
+
 http://localhost:8000/block/0
 
+```
 **Success Response**
 * Code: 200 OK
 * Content: JSON object of the block
