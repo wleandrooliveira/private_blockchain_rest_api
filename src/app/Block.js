@@ -5,7 +5,7 @@
 class Block {
     constructor(data){
       this.height = '';
-      this.timeStamp = '';
+      this.time = 0;
       this.body = data;
       this.previousBlockHash = '';
       this.hash = '';

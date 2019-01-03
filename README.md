@@ -27,7 +27,7 @@ app.post('/block', async (req, res) => {
   if (req.body.body === '' || req.body.body === undefined) {
     res.status(400).json({
       "status": 400,
-      message: "Fill the body parameter"
+      "message": "Fill the body parameter"
     })
   }
 
@@ -58,7 +58,7 @@ $ npm install
 $ node server.js
 when run node server.js by first time, you see this messagem in prompt or terminal
 
-Server listening on port 5001, Ctrl+C to stop
+Server listening on port 8000, Ctrl+C to stop
 New hash: 128dbb2a737629eba57c1dffd15facdf7ddd69f8d2145d5c5f241c604b95a3e1
 Added block #0
 Genesis block added!
@@ -72,11 +72,13 @@ Genesis block added!
 
 **URL**: `/block/:blockHeight`
 
-In this Request has used postman
+In this this project i used postman to make a test request.
+[Postman](https://www.getpostman.com) is a powerful tool used to test web services. It was developed for sending HTTP requests in a simple and quick way.
 
 Example:
 ```
-http://localhost:5001/block/0
+![Alt text](https://github.com/wleandrooliveira/private_blockchain_rest_api/blob/master/src/images/getblock_genesis.PNG)
+http://localhost:8000/block/0
 
 **Success Response**
 * Code: 200 OK
@@ -99,7 +101,7 @@ In this Request has used postman
 
 Example:
 ```
-http://localhost:5001/
+http://localhost:8000/
 
 **Error Response**
 * Code: 404 Not Found
